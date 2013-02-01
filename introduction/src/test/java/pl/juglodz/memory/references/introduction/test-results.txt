@@ -1,0 +1,9 @@
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running pl.juglodz.references.manualgc.AppTest
+AppTest.testWithGC: [measured 10 out of 15 rounds, threads: 1 (sequential)]
+ round: 27.43 [+- 0.15], round.gc: 0.00 [+- 0.00], GC.calls: 2516, GC.time: 0.98, time.total: 412.93, time.warmup: 138.63, time.bench: 274.30
+AppTest.testWithoutGC: [measured 10 out of 15 rounds, threads: 1 (sequential)]
+ round: 27.26 [+- 0.28], round.gc: 0.00 [+- 0.00], GC.calls: 2291, GC.time: 0.69, time.total: 409.93, time.warmup: 137.31, time.bench: 272.61
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 822.921 sec
