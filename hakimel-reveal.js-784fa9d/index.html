@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+<div class="slides">
+    <section>
+        <section>
+            <h1>przewodnik po referencjach</h1>
+            <p>Przyszłość w IT</p>
+            <p>Łódź 2013</p>
+        </section>
+        <section>
+            <h2>O mnie</h2>
+            <div>
+                <img src="http://img72.imageshack.us/img72/3424/marekdefecinski.jpg">
+                <img src="http://imageshack.us/a/img221/3969/mobicalogo.png">
+                <img src="http://imageshack.us/a/img825/6092/juglogotransparent.png">
+                <img src="http://imageshack.us/a/img266/5756/mobilizationpl.png">
+                <img src="http://imageshack.us/a/img152/4408/gdglodz.png">
+                <br>
+            </div>
+            <div>
+                <ul>
+                    <li>Mobica - programista aplikacji mobilnych</li>
+                    <li>JUG Łódź <a href="http://www.juglodz.pl">www.juglodz.pl</a>
+                </li>
+                <li>Konferencja mobilization <a href="http://www.mobilization.pl">www.mobilization.pl</a>
+            </li>
+            <li>GDG Łódź</li>
+            <li>Startup Live Łódź?</li>
+        </ul>
+    </div>
+</section>
+</section>
+<section>
+    <section>
+        <h2>
+    <font>STOJĄC NA BARKACH GIGANTÓW</font>
+</h2>
+<div>
+    <img src="http://i.imgur.com/KVHQm.png">
+    <font>
+        <br>
+    </font>
+</div>
+<div>
+</div>
+
+
+</section>
+        <section>
+            <div>
+    <img src="http://i.imgur.com/mdsYyvMs.png">
+</div>
+<ul>
+<li>Bob Lee's Ghost in the Virtual Machine<br>
+        <a href="http://www.parleys.com/#id=2657&amp;st=5" style="">http://www.parleys.com/#id=2657&amp;st=5</a>&nbsp;<br>
+        </li>
+        <li style="">Steve Poole's Understanding, Using and Debugging Java Reference Objects<br>
+            <a href="http://www.parleys.com/#st=5&amp;id=2792">http://www.parleys.com/#st=5&amp;id=2792</a>&nbsp;<br>
+            </li>
+            <li style="">IBM DeveloperWorks<ul style="margin-left: 40.0px;list-style-type: square;display: block;">
+                <li>Java theory and practice: Plugging memory leaks with soft references</li>
+                <li>Java theory and practice: Plugging memory leaks with weak references</li>
+            </ul>
+        </li>
+</ul>
+
+
+</section>
+        </section>
+        <section>
+            <section>
+                <h2>GARBAGE COLLECTOR</h2>
+                <div>
+                    <img src="http://img829.imageshack.us/img829/3516/fotolia45343221xs.jpg">
+                    <br>
+                </div>
+                <div>
+                    <ul>
+                        <li>zalety i wady</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>Złoty środek</h2>
+<div>
+    <b>GC to nie złoty środek</b>
+</div>
+<div>
+    <b>
+        <br>
+    </b>
+</div>
+<div>Rzeczy które wymagają ręcznego odśmiecania
+    <ul>
+        <li>Listenery</li>
+        <li>Deskryptory plików</li>
+        <li>Pamięć natywna</li>
+        <li>Stan zewnętrzny</li>
+        <li>Kolekcje</li>
+    </ul>
+</div>
+
+</section>
+                <section>
+                    <h2>Zarządzanie pamięcią a<br>baloniki</h2>
+<div>
+    <img src="http://img541.imageshack.us/img541/8315/garbagecollection1.png">
+    <br>
+</div>
+                    <div>c++ vs java</div>
+
+</section>
+                    <section>
+                        <h2>Baloniki - JAK DZIAŁa GC</h2>
+<div>
+<img src="http://imageshack.us/a/img69/18/gc2f.png">
+</div>
+</section>
+                        <section>
+                            <img src="http://img94.imageshack.us/img94/3695/gc15z.png">
+                        </section>
+                        <section>
+                            <img src="http://imageshack.us/a/img534/375/gc4f.png">
+
+
+</section>
+                            <section>
+                                <img src="http://imageshack.us/a/img197/7088/gc5.png">
+</section>
+                                <section>
+                                    <img src="http://imageshack.us/a/img267/3541/gc6.png">
+                                </section>
+                                <section>
+                                    <img src="http://imageshack.us/a/img189/8/gc7.png">
+                                </section>
+                                <section>
+                                    <img src="http://imageshack.us/a/img842/1944/gc75.png">
+                                </section>
+                                <section>
+                                    <img src="http://imageshack.us/a/img40/8788/gc8.png">
+</section>
+                                    <section>
+                                        <h2>DEFINICJE</h2>
+<div>
+    <ul>
+        <li>Dostępność (reachablity)<br>
+        Obiekt jest dostępny jeśli żyjący wątek może się do niego odnieść</li>
+        
+        <li>Korzenie sterty (heap root)
+            <ul>
+                <li>klasy systemowe i pola statyczne</li>
+                <li>stos (ramki) wątków
+                </li>
+                                        <li>globalne obiekty JNI
+                </li>
+                                        <li>wyjątki in-flight (właśnie rzucone)
+                </li>
+                                        <li>kolejka finalizerów
+                </li>
+                                        <li>pula stringów
+            </li>
+                                    </ul>
+        </li>
+    </ul>
+</div>
+</section>
+                                    <section>
+                                        <h2>DEFINICJE CD</h2>
+<div>
+    <ul>
+        <li>Eden/Young/Tenured generations<br>
+        </li>
+        <li>Infant Mortality</li>
+        <li>Minor collection</li>
+        <li>Major collection = Full GC</li>
+        <li>Mark and sweep
+        </li>
+                                        <li>Stop the world
+    </li>
+                                    </ul>
+</div>
+
+</section>
+                                    <section>
+                                        <h2>SKĄD SIĘ BIORĄ</h2>
+<h3>Memory Leaki</h3>
+<div>
+    <ul>
+        <li>Unwanted Global Retention (kolekcje!)</li>
+        <li>static variables</li>
+        <li>ThreadLocal</li>
+        <li>Finalizers</li>
+        <li>Resource leaks</li>
+        <li>Zapomniane tablice</li>
+        <li>JNI</li>
+        <li>Equals/hashcode!</li>
+        <li>Classloader</li>
+    </ul>
+</div>
+
+
+</section>
+                                        <section>
+                                            <h2>JaK POZNAĆ</h2>
+<h3>i wytropić</h3>
+<div>
+    <img src="http://i.imgur.com/r6ZUQoU.png">
+    <br>
+</div>
+<div>java -verbose:gc</div>
+<div>Dude where's my memory 10:45</div>
+
+</section>
+                                        </section>
+                                        <section>
+                                            <section>
+                                                <h2>CO DOSTARCZA JAVA</h2>
+<h3>do czyszczenia ręcznego</h3>
+<div>
+    <ul>
+        <li>try {} finally {}<br>
+        </li>
+        <li>Object.finalize() {}</li>
+        <li>Referencje</li>
+    </ul>
+</div>
+<div>
+    <br>
+</div>
+
+</section>
+                                                <section>
+                                                    <h2>TRY FINALLY</h2>
+<div>
+    <pre>    try {
+    InputStream is =  ...
+    }
+    finally {
+    <i>is.close();</i>
+    }
+</pre>
+</div>
+
+
+
+
+</section>
+                                                    <section>
+                                                        <h2>try FINALLY</h2>
+<div>
+<font color="#00ff00">plusy</font>
+</div>
+<div>
+    <ul>
+        <li>niby proste</li>
+        <li>wyjątki w bieżącym wątku</li>
+        <li>czyszczenie w czasie rzeczywistym</li>
+    </ul>
+    <div>
+<font color="#ff0000">minusy</font>
+</div>
+<div>
+    <ul>
+        <li>niby proste a jednak są błędy</li>
+        <li>więcej pracy</li>
+        <li>czyszczenie w czasie wykonania :)</li>
+    </ul>
+</div>
+</div>
+
+
+</section>
+                                                        <section>
+                                                            <h2>TRY FINALLY w JAVA7</h2>
+
+<pre>try (InputStream is = ) {
+...
+}
+</pre>
+
+</section>
+                                                            <section>
+                                                                <h2>FINALIZERS</h2>
+<div>
+    <img src="http://i.imgur.com/3o08YkN.jpg">
+    <br>
+</div>    
+<ul>
+<li>finalizer to callback, który mówi obiektowi, że zaraz zostanie wyczyszczony
+</li>
+                                                                <li>używany jak destruktor
+
+
+
+</li>
+                                                            </ul>
+                                                        </section>
+                                                        <section>
+                                                            <h2>FINALIZERY SĄ Złe</h2>
+<div>
+    <img src="http://openclipart.org/people/jhnri4/Stop_sign-20110802.svg">&nbsp;</div>
+                                                            <div>
+</div>
+
+
+</section>
+                                                            <section>
+                                                                <h2>FINALIZerY SĄ złe</h2>
+<ul>
+<img src="http://openclipart.org//image/120px/svg_to_png/1678/ryanlerch_Green_-_Query_Icon.png">
+<li>nie wiadomo czy się wykonają 
+</li>
+<li>a jeśli nawet to kiedy?</li>
+    <li>
+    <img src="http://openclipart.org/image/200px/svg_to_png/89155/damage.png">
+    nie jest zdefiniowany model wątków<br>(mogą wykonać się jednocześnie)
+    </li>
+    <li>
+<b>(nie)</b> zapominamy o super.finalize()
+</li>
+</ul>
+
+
+
+
+
+</section>
+                                                                <section>
+                                                                    <h2>FINALIZERY SĄ ZŁe</h2>
+<div>
+        <li>wyjątki podczas finalizacji są ignorowane</li>
+        <li>można przywracać obiekty do życia!</li>
+        <li>mogą zwolnić aplikację nawet do 430x</li>
+        <li>(Effective Java Item 7)
+            <img src="http://www.flazx.us/data/02/01/31/00/0201310058/0000.L.jpg">
+        </li>
+    
+</div>
+</section>
+                                                                    <section>
+                                                                        <h2>JEDYNE? PRAWIDŁOWE Użycia</h2>
+<div>
+    <ul>
+        <li>Logowanie zapomnianych zwolnieć zasobów
+        <ul>
+        <li>Deskryptory</li>
+        <li>Połączenia sieciowe</li>
+        
+        </ul>
+        </li>
+                                                                        <li>Natywnie alokowane zasoby</li>
+    </ul>
+</div>
+
+</section>
+                                                                    </section>
+                                                                    <section>
+                                                                        <section>
+                                                                            <h2>REFERENCJE</h2>
+<div>java.lang.reference.*<br>
+</div>
+<div>@java 1.2</div>
+<div>
+    <ul>
+        <li>Typy referencji (reachability)</li>
+        <ul>
+<li>Soft</li>
+        <li>Weak</li>
+        <li>Phantom<br>
+<br>
+</li>
+    </ul>
+    <div>
+<pre>
+                                                                            <code>public WeakReference(T referent,ReferenceQueue q)
+</code>
+                                                                        </pre>
+<pre>
+                                                                        <code>public WeakReference(T referent)</code>
+                                                                    </pre>
+<pre>
+                                                                    <code>public T get()</code>
+                                                                </pre>
+<pre>
+                                                                <code>public void clear()</code>
+                                                            </pre>
+</div>
+</ul>
+</div>
+
+
+</section>
+                                                            <section>
+                                                                <h2>REFERENCJE</h2>
+<h3>Kolejki referencji</h3>
+<pre>
+                                                                <code>public Reference&lt;? extends T&gt; poll()</code>
+                                                            </pre>
+<pre>
+                                                            <code>public Reference&lt;? extends T&gt; remove(long timeout) throws IllegalArgumentException,InterruptedException</code>
+                                                        </pre>
+
+<pre>
+                                                        <code>public Reference&lt;? extends T&gt; remove() throws InterruptedException</code>
+                                                        </pre>
+
+    <ul>
+        <li>sposób notyfikacji</li>
+        <li>odpowiednia kolejka</li>
+        <li>jednokierunkowość</li>
+        <li>uwaga na dostępność</li>
+    </ul>
+                                                    </section>
+                                                    <section>
+                                                        <h2>ReaCHABILITY</h2>
+<div>
+    <ul>
+        <li>Strongly</li>
+                                                        <li>Softly</li>
+                                                        <li>Weakly</li>
+                                                        <li>Phantomly</li>
+                                                        <li>Unreachable</li>
+    </ul>
+</div>
+</section>
+                                                    </section>
+                                                    <section>
+                                                        <section>
+                                                            <h2>WEAK REFERENCES</h2>
+<div>Pozwalają na trzymanie (słabej) referencji do obiektu</div>
+<div>która nie gwarantuje że GC nie zabierze obiektu</div>
+<div>
+    <ul>
+        <li>do pierwszego GC!</li>
+<li>alternatywny sposób dostępu do obiektu<br>
+    <b>jeśli jeszcze żyje</b>
+</li>
+<li>nie tworzy kopii!</li>
+<li>brak silnych dowiązań</li>
+    </ul>
+</div>
+
+
+</section>
+                                                            <section>
+                                                                <h2>WEAK REFERENCES</h2>
+<h3>use cases</h3>
+<div>
+    <ul>
+        <li>Dodatkowe własności obiektu<br>ważne tak długo jak ważny jest obiekt
+        </li>
+        <li>EventHandler<br>
+        </li>
+        <li>WeakHashMap<br>
+        </li>
+        <ul>
+        <li>
+            WeakKeys -&gt; Strong Values
+        </li>
+<li>Uwaga na powiązanie Values z Keys!</li>
+        </ul>
+        <li style="text-decoration: line-through;">cache
+    </li>
+</ul>
+</div>
+
+
+
+
+
+</section>
+                                                            </section>
+                                                            <section>
+                                                                <section>
+                                                                    <h2>SOFT REFERENCES</h2>
+<div>
+    <div style="">Pozwalają na trzymanie (miękkiej) referencji do obiektu</div>
+    <div style="">która nie gwarantuje że GC nie zabierze obiektu</div>
+</div>
+<div style="">
+    <ul>
+        <li>VM jest niechętny usuwaniu Soft Reference</li>
+        <li>a jeśli już to LRU</li>
+        <li>ale</li>
+        <ul>
+        <li>miękkie referencje nie mają pojęcia wagi!</li>
+        <ul>
+<li>pamięć</li>
+<li>CPU</li>
+<li>złożoność</li>
+</ul>
+        </ul>
+    </ul>
+</div>
+
+
+
+</section>
+                                                                    <section>
+                                                                        <h2>SOFT REFERENCES</h2>
+<h3>use cases</h3>
+<div>
+    <ul>
+        <li>cache (quick and dirty)</li>
+        <li>memory constrained devices (phones)</li>
+        <li>optymalizacja - obiekty bez których możemy się obejść</li>
+    </ul>
+</div>
+
+</section>
+                                                                    </section>
+                                                                    <section>
+                                                                        <section>
+                                                                            <h2>Phantom REFERENCES</h2>
+<div>
+    <ul>
+        <li>Brak dostępu do obiektu <i>get() </i>zwraca <i>null</i>
+    </li>
+    <li>Kolejkowane gdy nie ma innych referencji<br>
+    </li>
+    <li>
+        <i>pre-mortem </i>cleanup</li>
+        <li>
+            <i>post-mortem </i>cleanup?</li>
+            <li>Muszą być czyszczone ręcznie :\</li>
+            <li>Tylko w użyciu z kolejkami</li>
+        </ul>
+    </div>
+</section>
+                                                                            <section>
+                                                                                <h2>PHANTOM REFERENCES</h2>
+<h3>Use cases</h3>
+<div>
+    <ul>
+        <li>bezpieczny sposób na dowiedzenie się że obiekt został zebrany przez GC</li>
+        <li>pula obiektów np. połączenie</li>
+    </ul>
+</div>
+</section>
+                                                                            </section>
+                                                                            <section>
+                                                                                <h2>GC DON'TS</h2>
+<div>
+    <img src="http://i.imgur.com/0q4SOKU.png?3">
+    <br>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <i>System.gc();</i>
+    <br>
+            </li>
+            <li>
+<i>System.gc(); System.gc();</i>
+            </li>
+            <li>
+<i>reference = null;</i>
+            </li>
+            <li>
+<i>catch (OutOfMemoryError e)</i>
+</li>
+        </ul>
+    
+
+</div>
+
+
+
+
+
+</section>
+                                                                                <section>
+                                                                                    <h2>GC FINALLY</h2>
+<div>
+    <ol>
+    <li>Wystartuj z korzenia
+</li>
+<li>Śledź i zaznacz obiekty silnie dostępne</li>
+<li>(Opcjonalnie) usuń soft-referencje</li>
+<li>Śledź i zaznacz obiekty miękko dostępne</li>
+<li>Usuń słabe referencje</li>
+<li>Utwórz kolejkę obiektów do sfinalizowania</li>
+<li>1-5 dla obiektów z pkt. 6</li>
+<li>Utwórz kolejkę obiektów phantom</li>
+<li>Reszta obiektów jest nieosiągalna (martwa)</li>
+</ol>
+</div>
+
+</section>
+                                                                                    <section>
+                                                                                        <h2>PrzyKŁADY</h2>
+                                                                                        <div>czy jest czas na przykłady?</div>
+                                                                                    </section>
+                                                                                </div>
+
+</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

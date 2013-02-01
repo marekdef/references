@@ -10,6 +10,10 @@ import com.carrotsearch.junitbenchmarks.BenchmarkRule;
  * Unit test for simple App.
  */
 public class AppTest {
+    	public AppTest() {
+	    // TODO Auto-generated constructor stub
+	}
+    	
 	@Rule
 	public BenchmarkRule rule = new BenchmarkRule();
 
