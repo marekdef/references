@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonSoft"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Soft" />
+
+    <Button
+        android:id="@+id/buttonWeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonSoft"
+        android:layout_below="@+id/buttonSoft"
+        android:layout_marginTop="54dp"
+        android:text="Weak" />
+
+    <Button
+        android:id="@+id/buttonGC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonWeak"
+        android:layout_below="@+id/buttonWeak"
+        android:layout_marginTop="40dp"
+        android:text="GC" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/buttonGC"
+        android:text="" />
+
+</RelativeLayout>
